@@ -6,7 +6,7 @@
 Cordova Background Plugin [![npm version](https://badge.fury.io/js/cordova-plugin-background-mode.svg)](http://badge.fury.io/js/cordova-plugin-background-mode) [![Build Status](https://travis-ci.org/katzer/cordova-plugin-background-mode.svg?branch=master)](https://travis-ci.org/katzer/cordova-plugin-background-mode) [![codebeat badge](https://codebeat.co/badges/49709283-b313-4ced-8630-f520baaec7b5)](https://codebeat.co/projects/github-com-katzer-cordova-plugin-background-mode)
 =========================
 
-Plugin for the [Cordova][cordova] framework to perform infinite background execution.
+Plugin fork for the [Cordova][cordova] framework to perform infinite background execution and fix stoping music at IOS.
 
 Most mobile operating systems are multitasking capable, but most apps dont need to run while in background and not present for the user. Therefore they pause the app in background mode and resume the app before switching to foreground mode.
 The system keeps all network connections open while in background, but does not deliver the data until the app resumes.
